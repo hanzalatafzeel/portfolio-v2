@@ -31,10 +31,14 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50">
+    <header
+      className={`fixed inset-x-0 top-0 z-50 ${
+        scrolled ? "bg-gradient-to-b from-ink/95 via-ink/65 to-transparent" : ""
+      }`}
+    >
       <div
         className={`mx-auto flex h-16 max-w-6xl items-center justify-between px-6 transition-all duration-300 ${
-          scrolled ? "glass mt-3 rounded-2xl shadow-lg shadow-black/30" : "bg-transparent"
+          scrolled ? "glass-strong mt-3 rounded-2xl shadow-lg shadow-black/30" : "bg-transparent"
         }`}
       >
         <button
