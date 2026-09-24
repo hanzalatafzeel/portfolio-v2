@@ -1,5 +1,7 @@
 # Hanzala Tafzeel — Portfolio
 
+> **Live:** https://portfolio-nine-tan-34.vercel.app
+
 A dark, neon-accented developer portfolio built with [Next.js](https://nextjs.org) (App Router, TypeScript), [Tailwind CSS v4](https://tailwindcss.com), [Framer Motion](https://www.framer.com/motion/), and [lucide-react](https://lucide.dev).
 
 ## Features
